@@ -1,0 +1,12 @@
+Shavinda HKL - IT21012488 
+
+Upload the Backprop.ipynb to Jupyter notebook (or google colab) and see if you can understand the code. Increase the number of iterations (epochs) and see whether it improves the prediction accuracy.
+
+1.  Increasing the number of iterations (epochs) led to a further reduction in error compared to 200 iterations. With the current learning rate of 0.5, more iterations seem to improve the process of finding optimal weights by minimizing cost.
+
+
+
+Upload the NN_sample.ipynb to Jupyter notebook (or google colab) and see if you can understand the code. Add the following text cell and the code cell to the notebook and run it again.
+
+2.1 With fewer hidden nodes, the model showed low accuracy (around 60%), suggesting potential underfitting. As hidden nodes increased, accuracy improved significantly, and error rates decreased, indicating better information capture. However, beyond 20 hidden nodes, accuracy fluctuated between 90-93%, suggesting an optimal complexity range. To avoid overfitting, testing with a separate dataset is recommended to determine the ideal number of hidden nodes.
+2.2 Accuracy improved dramatically from 67% to 90% when hidden layers increased from 2 to 4. Further increases (up to 70 layers) showed minimal improvement, with accuracy fluctuating between 90-94%. While training accuracy is good, the increased complexity might lead to overfitting. The model's performance on new data remains uncertain despite good training accuracy.
